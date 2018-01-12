@@ -1,3 +1,11 @@
+section{
+	height:1296px
+	width: 727px;
+
+}
+
+
+
 body {
 	background-color:#777;
 }
@@ -23,6 +31,7 @@ nav{
 	width:960px;
 	height: 40px;
 	padding-top:40px;
+	padding-bottom:10px;
 	margin-left:100px;
 	margin-right:250px;
 
@@ -30,20 +39,24 @@ nav{
 
 
 
-div {background-color:#ebebeb;
+
+.box1{background-color:#ebebeb;
 	color:#777;
 	font-family:Arial;
 	font-size:18px;
 	text-align:center;
 	width:400px;
-	height: 200px;
+	height: 410px;
 	margin-left:100px;
-	margin-right:50px;
-	border-right:10px;
+	margin-right:10px;
+	border-right:200px;
 	border-left:50px;
 	padding-left:20px;
-	border-bottom:-20px;
-	margin-bottom:30px;
+	padding-right:120px;
+	border-bottom:20px;
+	margin-bottom:0px;
+	padding-top:20px;
+	padding-bottom:20px;
 	float:left;
 
  }
@@ -55,16 +68,18 @@ div {background-color:#ebebeb;
 	text-align:center;
 	width:350px;
 	height: 200px;
-	margin-left:20px;
-	margin-right:200px;
-	border-right:50px;
-	border-top:2px;
+	margin-left:-100px;
+	margin-right:160px;
+	border-right:100px;
+	border-top:0px;
 	border-bottom:200px;
 	margin-bottom:300px;
-	margin-top:5px;
-	height: 200px;
+	margin-top:0px;
+	height: 400px;
 	padding-top:50px;
+	padding-left:45px;
 	float:right;
+	
 }   
 
 footer{
@@ -75,9 +90,59 @@ footer{
 	text-align:center;
 	width:960px;
 	height: 50px;
-	padding-top:40px;
-	margin-left:100px;
-	margin-right:250px;
+	padding-top:30px;
+	margin-left:-20px;
+	margin-right:400px;
 	clear:left;
-    clear:right;}
+    clear:right;
+    padding-bottom:30px;
+    margin-bottom:0px;
+    margin-top:150px;}
+  
+  .articlebox{
+  	text-align:center;
+  	padding-top:20px;
+  	border-top:10px;
+  	background-color: #777;
+  	color:#ebebeb;
+  	height:300px;
+  	margin-top:50px;
+  	margin-left:5px;
+  	margin-right:-95px;
+  	margin-bottom:-50px;
+  	padding-bottom:0px;
+  	border-bottom:-10px;
+  	
+
+  }
+
+  .hbox{background-color:#ebebeb;
+	color:#777;
+	font-family:Arial;
+	font-size:18px;
+	text-align:center;
+	margin-top:20px;
+	padding-top:50px;
+	margin-left:40px;
+	margin-bottom:5px;
+	height:20px;
+	width:400px;
+}
+
+
+ .pbox{background-color:#ebebeb;
+	color:#777;
+	font-family:Arial;
+	font-size:18px;
+	text-align:center;
+	margin-top:10px;
+	padding-top:50px;
+	margin-left:40px;
+	margin-bottom:0px;
+	height:20px;
+	width:400px;
+
+}
+
+
 
