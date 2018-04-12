@@ -4,13 +4,11 @@ section{
 
 }
 
-
-
-body {
+body{
 	background-color:#777;
 }
 
-header {
+header{
 	background-color:#ebebeb;
 	color: #777;
 	font-family:Arial;
@@ -22,6 +20,7 @@ header {
 	margin-left:100px;
 	margin-right:250px;
 }
+
 nav{
 	background-color:#ebebeb;
 	color:#777;
@@ -38,9 +37,8 @@ nav{
 }
 
 
-
-
-.box1{background-color:#ebebeb;
+.box1{
+	background-color:#ebebeb;
 	color:#777;
 	font-family:Arial;
 	font-size:18px;
@@ -59,25 +57,26 @@ nav{
 	padding-bottom:20px;
 	float:left;
 
- }
+}
 
- .aside {background-color:#ebebeb;
+ .aside{
+ 	background-color:#ebebeb;
 	color:#777;
 	font-family:Arial;
 	font-size:18px;
 	text-align:center;
 	width:350px;
 	height: 200px;
-	margin-left:-100px;
-	margin-right:160px;
-	border-right:100px;
+	margin-left:-110px;
+	margin-right:170px;
+	border-right: 70px;
 	border-top:0px;
 	border-bottom:200px;
 	margin-bottom:300px;
 	margin-top:0px;
 	height: 400px;
 	padding-top:50px;
-	padding-left:45px;
+	padding-left:50px;
 	float:right;
 	
 }   
@@ -88,7 +87,7 @@ footer{
 	font-family:Arial;
 	font-size:18px;
 	text-align:center;
-	width:960px;
+	width:970px;
 	height: 50px;
 	padding-top:30px;
 	margin-left:-20px;
@@ -97,7 +96,8 @@ footer{
     clear:right;
     padding-bottom:30px;
     margin-bottom:0px;
-    margin-top:130px;}
+    margin-top:130px;
+}
   
   .articlebox{
   	text-align:center;
@@ -113,10 +113,10 @@ footer{
   	padding-bottom:0px;
   	border-bottom:-10px;
   	
+}
 
-  }
-
-  .hbox{background-color:#ebebeb;
+  .hbox{
+  	background-color:#ebebeb;
 	color:#777;
 	font-family:Arial;
 	font-size:18px;
@@ -131,7 +131,8 @@ footer{
 }
 
 
- .pbox{background-color:#ebebeb;
+ .pbox{
+ 	background-color:#ebebeb;
 	color:#777;
 	font-family:Arial;
 	font-size:18px;
